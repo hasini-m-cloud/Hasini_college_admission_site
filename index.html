@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>College Admission Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<defs>
+<linearGradient id="gBrick" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b86a50"/><stop offset="1" stop-color="#85402f"/></linearGradient>
+<linearGradient id="gStone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1ead9"/><stop offset="1" stop-color="#c9bea5"/></linearGradient>
+<linearGradient id="gCol" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fbf7ec"/><stop offset=".55" stop-color="#e2d9c3"/><stop offset="1" stop-color="#a99f88"/></linearGradient>
+<linearGradient id="gGlass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c3dcf2"/><stop offset="1" stop-color="#5d86b0"/></linearGradient>
+<linearGradient id="gLit" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe9a3"/><stop offset="1" stop-color="#f2a516"/></linearGradient>
+<linearGradient id="gDome" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8cc4b0"/><stop offset="1" stop-color="#3b7866"/></linearGradient>
+<linearGradient id="gLawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#55883f"/><stop offset="1" stop-color="#2e5a28"/></linearGradient>
+<radialGradient id="gTree" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#6aa35a"/><stop offset="1" stop-color="#2a5a2e"/></radialGradient>
+<pattern id="pw" width="30" height="38" patternUnits="userSpaceOnUse"><rect x="5" y="7" width="20" height="24" fill="url(#gGlass)" stroke="#efe8d8" stroke-width="2"/><path d="M15 7V31M5 19H25" stroke="#efe8d8" stroke-width="1.5"/></pattern>
+<g id="lw"><rect width="20" height="24" fill="url(#gLit)" stroke="#efe8d8" stroke-width="2"/><path d="M10 0V24M0 12H20" stroke="#efe8d8" stroke-width="1.5"/></g>
+<g id="tree"><rect x="-4" y="30" width="8" height="34" fill="#5b3f2a"/><ellipse cy="12" rx="30" ry="38" fill="url(#gTree)"/><ellipse cx="-12" cy="22" rx="17" ry="22" fill="#2c5a2f" opacity=".45"/></g>
+</defs>
+<symbol id="campus-art" viewBox="0 0 1200 320"><g transform="translate(0 20)">
+<rect y="276" width="1200" height="44" fill="url(#gLawn)"/>
+<rect y="170" width="80" height="106" fill="url(#gGlass)"/><path d="M0 196H80M0 222H80M0 248H80" stroke="#fff" opacity=".45"/><rect width="84" height="8" y="162" fill="#4b5a73"/>
+<rect x="1120" y="170" width="80" height="106" fill="url(#gGlass)"/><path d="M1120 196H1200M1120 222H1200M1120 248H1200" stroke="#fff" opacity=".45"/><rect x="1116" y="162" width="84" height="8" fill="#4b5a73"/>
+<rect x="90" y="114" width="300" height="152" fill="url(#gBrick)"/><rect x="90" y="114" width="300" height="152" fill="url(#pw)"/>
+<rect x="810" y="114" width="300" height="152" fill="url(#gBrick)"/><rect x="810" y="114" width="300" height="152" fill="url(#pw)"/>
+<path d="M90 150h300M90 188h300M90 226h300M810 150h300M810 188h300M810 226h300" stroke="#efe8d8" stroke-width="4" opacity=".55"/>
+<rect x="84" y="104" width="312" height="10" fill="url(#gStone)"/><rect x="804" y="104" width="312" height="10" fill="url(#gStone)"/>
+<rect x="90" y="266" width="300" height="10" fill="#8f8570"/><rect x="810" y="266" width="300" height="10" fill="#8f8570"/>
+<use href="#lw" x="125" y="159"/><use href="#lw" x="215" y="121"/><use href="#lw" x="275" y="197"/><use href="#lw" x="335" y="159"/><use href="#lw" x="185" y="235"/><use href="#lw" x="365" y="235"/><use href="#lw" x="815" y="197"/><use href="#lw" x="875" y="121"/><use href="#lw" x="965" y="159"/><use href="#lw" x="1025" y="235"/><use href="#lw" x="1085" y="197"/><use href="#lw" x="935" y="235"/>
+<rect x="562" y="26" width="76" height="98" fill="url(#gStone)"/><rect x="556" y="22" width="88" height="6" fill="#c9bea5"/><path d="M570 22a30 30 0 0 1 60 0z" fill="url(#gDome)"/><rect x="598" y="-14" width="4" height="18" fill="#6a6a6a"/>
+<circle cx="600" cy="62" r="16" fill="#f8f4ea" stroke="#4b5a73" stroke-width="3"/><path d="M600 62V51M600 62l8 4" stroke="#222" stroke-width="2"/><use href="#lw" x="590" y="92"/>
+<rect x="450" y="124" width="300" height="152" fill="url(#gStone)"/><path d="M436 124H764L600 70z" fill="url(#gStone)"/><path d="M468 120H732L600 78z" fill="#b9ae94" opacity=".55"/><rect x="450" y="124" width="300" height="10" fill="#d9cfb6"/>
+<rect x="456" y="134" width="288" height="110" fill="#6e6553"/>
+<rect x="496" y="156" width="16" height="60" fill="url(#gLit)"/><rect x="544" y="156" width="16" height="60" fill="url(#gGlass)"/><rect x="640" y="156" width="16" height="60" fill="url(#gGlass)"/><rect x="688" y="156" width="16" height="60" fill="url(#gLit)"/>
+<path d="M588 244V198a12 12 0 0 1 24 0V244z" fill="#4a3426"/><path d="M592 244V200a8 8 0 0 1 16 0V244z" fill="url(#gLit)" opacity=".85"/>
+<g fill="url(#gCol)"><rect x="470" y="134" width="20" height="110"/><rect x="518" y="134" width="20" height="110"/><rect x="566" y="134" width="20" height="110"/><rect x="614" y="134" width="20" height="110"/><rect x="662" y="134" width="20" height="110"/><rect x="710" y="134" width="20" height="110"/></g>
+<rect x="450" y="244" width="300" height="10" fill="url(#gStone)"/><rect x="438" y="254" width="324" height="11" fill="#d9cfb6"/><rect x="426" y="265" width="348" height="11" fill="#c9bea5"/>
+<path d="M540 276H660L720 296H480z" fill="#d8cfb8"/>
+<rect x="400" y="236" width="3" height="40" fill="#333"/><circle cx="401.5" cy="234" r="6" fill="url(#gLit)"/><rect x="800" y="236" width="3" height="40" fill="#333"/><circle cx="801.5" cy="234" r="6" fill="url(#gLit)"/>
+<use href="#tree" x="34" y="212"/><use href="#tree" x="250" y="212"/><use href="#tree" x="950" y="212"/><use href="#tree" x="1166" y="212"/>
+</g></symbol></svg>
+
+<header class="bar">
+  <a class="logo" href="#home">College <b>Admission</b> Management</a>
+  <nav>
+    <a href="#courses">Programmes</a><a href="#process">Process</a><a href="#campus">Campus</a><a href="#support">Scholarships</a>
+    <a href="#status">Track</a><a href="#admin">Admin</a><a href="#faq">FAQ</a><a class="go" href="#apply">Apply now</a>
+  </nav>
+</header>
+
+<main>
+<div id="home" class="hero"><svg class="skyline" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><use href="#campus-art" width="1200" height="320"/></svg><div class="hero-in">
+  <div>
+    <h1>Choose the course that <em>shapes</em> your next decade</h1>
+    <p>Twenty-four programmes across six departments. One application, one tracker, and a clear path from first form to confirmed seat.</p>
+    <a class="btn" href="#apply">Start your application</a> <a class="btn ghost" href="#courses">Explore programmes</a>
+  </div>
+  <aside class="dates">
+    <h3>Admission calendar 2027</h3>
+    <ol>
+      <li><b>1 January</b><span>Applications open</span></li>
+      <li><b>30 April</b><span>Last date to apply</span></li>
+      <li><b>15 May</b><span>Merit list published</span></li>
+      <li><b>1 June</b><span>Document verification begins</span></li>
+      <li><b>1 July</b><span>Classes start</span></li>
+    </ol>
+  </aside>
+</div></div>
+
+<div class="facts">
+  <div><b>24</b><span>Programmes</span></div><div><b>1,850</b><span>Seats</span></div><div><b>92%</b><span>Placement rate</span></div><div><b>6</b><span>Departments</span></div>
+</div>
+
+<section id="courses">
+  <h2>Find your programme</h2>
+  <p class="lead">Pick a department to see its programmes, seats and the minimum marks needed. Reserved seats follow government norms.</p>
+  <div class="tabs-wrap">
+    <input type="radio" name="dept" id="d1" checked><input type="radio" name="dept" id="d2"><input type="radio" name="dept" id="d3"><input type="radio" name="dept" id="d4"><input type="radio" name="dept" id="d5"><input type="radio" name="dept" id="d6">
+    <div class="tabs">
+      <label for="d1">Engineering</label><label for="d2">Science</label><label for="d3">Management and Commerce</label><label for="d4">Computer Applications</label><label for="d5">Health Sciences</label><label for="d6">Arts and Media</label>
+    </div>
+    <div class="panels">
+      <ul class="panel p1">
+        <li><b>B.Tech Computer Science</b><small>Undergraduate, 4 years</small><i>120 seats</i><i>Min. 75%</i>
+        <li><b>B.Tech AI and Data Science</b><small>Undergraduate, 4 years</small><i>60 seats</i><i>Min. 75%</i>
+        <li><b>B.Tech Electronics and Communication</b><small>Undergraduate, 4 years</small><i>90 seats</i><i>Min. 70%</i>
+        <li><b>B.Tech Mechanical</b><small>Undergraduate, 4 years</small><i>60 seats</i><i>Min. 65%</i>
+        <li><b>B.Tech Civil</b><small>Undergraduate, 4 years</small><i>60 seats</i><i>Min. 60%</i>
+        <li><b>M.Tech Computer Science</b><small>Postgraduate, 2 years</small><i>24 seats</i><i>Min. 60%</i>
+      </ul>
+      <ul class="panel p2">
+        <li><b>B.Sc Physics</b><small>Undergraduate, 3 years</small><i>40 seats</i><i>Min. 60%</i>
+        <li><b>B.Sc Chemistry</b><small>Undergraduate, 3 years</small><i>40 seats</i><i>Min. 60%</i>
+        <li><b>B.Sc Mathematics</b><small>Undergraduate, 3 years</small><i>40 seats</i><i>Min. 60%</i>
+        <li><b>B.Sc Biotechnology</b><small>Undergraduate, 3 years</small><i>40 seats</i><i>Min. 65%</i>
+        <li><b>M.Sc Data Science</b><small>Postgraduate, 2 years</small><i>30 seats</i><i>Min. 60%</i>
+      </ul>
+      <ul class="panel p3">
+        <li><b>BBA</b><small>Undergraduate, 3 years</small><i>80 seats</i><i>Min. 55%</i>
+        <li><b>B.Com Honours</b><small>Undergraduate, 3 years</small><i>100 seats</i><i>Min. 50%</i>
+        <li><b>B.Com Accounting and Finance</b><small>Undergraduate, 3 years</small><i>60 seats</i><i>Min. 55%</i>
+        <li><b>MBA</b><small>Postgraduate, 2 years</small><i>120 seats</i><i>Min. 50%</i><i>Entrance test</i>
+      </ul>
+      <ul class="panel p4">
+        <li><b>BCA</b><small>Undergraduate, 3 years</small><i>80 seats</i><i>Min. 55%</i>
+        <li><b>MCA</b><small>Postgraduate, 2 years</small><i>60 seats</i><i>Min. 55%</i>
+      </ul>
+      <ul class="panel p5">
+        <li><b>B.Pharm</b><small>Undergraduate, 4 years</small><i>60 seats</i><i>Min. 60%</i>
+        <li><b>B.Sc Nursing</b><small>Undergraduate, 4 years</small><i>50 seats</i><i>Min. 55%</i>
+        <li><b>BPT Physiotherapy</b><small>Undergraduate, 4.5 years</small><i>40 seats</i><i>Min. 55%</i>
+      </ul>
+      <ul class="panel p6">
+        <li><b>BA English Literature</b><small>Undergraduate, 3 years</small><i>60 seats</i><i>Min. 45%</i>
+        <li><b>BA Psychology</b><small>Undergraduate, 3 years</small><i>50 seats</i><i>Min. 50%</i>
+        <li><b>BA Journalism and Mass Communication</b><small>Undergraduate, 3 years</small><i>50 seats</i><i>Min. 50%</i>
+        <li><b>MA Economics</b><small>Postgraduate, 2 years</small><i>30 seats</i><i>Min. 50%</i>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <h2>From form to seat in five steps</h2>
+  <p class="lead">Everything happens online except document verification, which you complete on campus.</p>
+  <ol class="steps">
+    <li><b>Register</b><span>Create your application and choose up to two programmes.</span>
+    <li><b>Upload documents</b><span>Add marksheets, certificates and a photo.</span>
+    <li><b>Merit list</b><span>Ranked by marks or entrance score on 15 May.</span>
+    <li><b>Verify</b><span>Bring the originals to the admission office.</span>
+    <li><b>Confirm</b><span>Accept your offer online to secure the seat.</span>
+  </ol>
+</section>
+
+<div class="campus">
+<section id="campus">
+  <h2>Campus infrastructure</h2>
+  <p class="lead">Everything a student needs is on one campus, from reading halls to floodlit playing fields.</p>
+  <div class="infra">
+    <div><b>Central library</b>Reading halls, a digital archive and group study rooms.</div>
+    <div><b>Research laboratories</b>Equipped labs for engineering, science and pharmacy.</div>
+    <div><b>Hostels</b>Separate blocks for women and men, with a dining hall.</div>
+    <div><b>Sports complex</b>Floodlit ground, indoor courts and a fitness centre.</div>
+    <div><b>Auditorium</b>Seating for large lectures, convocations and cultural events.</div>
+    <div><b>Connected campus</b>Campus-wide Wi-Fi, smart classrooms and a health centre.</div>
+  </div>
+</section>
+<svg class="skyline" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><use href="#campus-art" width="1200" height="320"/></svg>
+</div>
+
+<section id="apply">
+  <h2>Application form</h2>
+  <p class="lead">It takes about ten minutes. Keep your marksheet and a recent photo ready.</p>
+  <form class="form" id="apply-form" action="#">
+    <fieldset><legend><span class="ft">Personal details<small>As on your official documents.</small></span></legend>
+      <div class="fields">
+        <label>Full name<input type="text" required></label>
+        <label>Date of birth<input type="date" required></label>
+        <label>Email<input type="email" required></label>
+        <label>Mobile number<input type="tel" pattern="[0-9]{10}" placeholder="10 digits" required></label>
+        <label>Nationality<input type="text" value="Indian"></label>
+        <label>Category<select required><option value="">Select</option><option>General</option><option>OBC</option><option>SC</option><option>ST</option><option>EWS</option></select></label>
+      </div>
+      <div class="row"><b>Gender</b><label><input type="radio" name="g" required> Female</label><label><input type="radio" name="g"> Male</label><label><input type="radio" name="g"> Other</label></div>
+      <label>Permanent address<textarea rows="3" required></textarea></label>
+    </fieldset>
+
+    <fieldset><legend><span class="ft">Family<small>Used for contact and aid eligibility.</small></span></legend>
+      <div class="fields">
+        <label>Father's or guardian's name<input type="text" required></label>
+        <label>Mother's name<input type="text" required></label>
+        <label>Parent's mobile<input type="tel" pattern="[0-9]{10}" required></label>
+        <label>Annual family income<select><option value="">Select</option><option>Below 2.5 lakh</option><option>2.5 to 5 lakh</option><option>5 to 10 lakh</option><option>Above 10 lakh</option></select></label>
+      </div>
+    </fieldset>
+
+    <fieldset><legend><span class="ft">Academic record<small>Your most recent qualification.</small></span></legend>
+      <div class="fields">
+        <label>Qualification<select required><option value="">Select</option><option>Class 12 Science</option><option>Class 12 Commerce</option><option>Class 12 Arts</option><option>Diploma</option><option>Bachelor's degree</option></select></label>
+        <label>School or college<input type="text" required></label>
+        <label>Board or university<input type="text" required></label>
+        <label>Year of passing<input type="number" min="2015" max="2027" required></label>
+        <label>Percentage<input type="number" min="0" max="100" step="0.01" required></label>
+        <label>Entrance exam<select><option>None</option><option>JEE Main</option><option>CUET</option><option>NEET</option><option>CAT or MAT</option><option>State CET</option></select></label>
+        <label>Entrance score<input type="number" min="0" step="0.01"></label>
+      </div>
+    </fieldset>
+
+    <fieldset><legend><span class="ft">Programme choice<small>You can list a backup.</small></span></legend>
+      <div class="fields">
+        <label>First choice<select required><option value="">Select a programme</option>
+          <optgroup label="Engineering"><option>B.Tech Computer Science</option><option>B.Tech AI and Data Science</option><option>B.Tech Electronics and Communication</option><option>B.Tech Mechanical</option><option>B.Tech Civil</option><option>M.Tech Computer Science</option></optgroup>
+          <optgroup label="Science"><option>B.Sc Physics</option><option>B.Sc Chemistry</option><option>B.Sc Mathematics</option><option>B.Sc Biotechnology</option><option>M.Sc Data Science</option></optgroup>
+          <optgroup label="Management and Commerce"><option>BBA</option><option>B.Com Honours</option><option>B.Com Accounting and Finance</option><option>MBA</option></optgroup>
+          <optgroup label="Computer Applications"><option>BCA</option><option>MCA</option></optgroup>
+          <optgroup label="Health Sciences"><option>B.Pharm</option><option>B.Sc Nursing</option><option>BPT Physiotherapy</option></optgroup>
+          <optgroup label="Arts and Media"><option>BA English Literature</option><option>BA Psychology</option><option>BA Journalism and Mass Communication</option><option>MA Economics</option></optgroup>
+        </select></label>
+        <label>Second choice<select><option value="">Select a programme</option><option>B.Tech Computer Science</option><option>BCA</option><option>BBA</option><option>B.Sc Physics</option><option>B.Com Honours</option><option>BA Psychology</option></select></label>
+      </div>
+      <div class="row"><b>I need</b><label><input type="checkbox"> Hostel</label><label><input type="checkbox"> College transport</label><label><input type="checkbox"> Scholarship</label></div>
+    </fieldset>
+
+    <fieldset><legend><span class="ft">Documents<small>PDF for certificates, image for the photo.</small></span></legend>
+      <div class="fields">
+        <label>Marksheet<input type="file" accept=".pdf" required></label>
+        <label>Transfer certificate<input type="file" accept=".pdf"></label>
+        <label>Category certificate<input type="file" accept=".pdf"></label>
+        <label>Passport photo<input type="file" accept="image/*" required></label>
+      </div>
+    </fieldset>
+
+    <label style="font-weight:400;display:flex;gap:10px;margin:6px 0 22px"><input type="checkbox" required> I confirm that all details and documents are correct.</label>
+    <button class="btn" type="submit">Submit application</button> <button class="btn ghost" type="reset">Clear form</button>
+  </form>
+</section>
+
+<section id="support">
+  <h2>Scholarships and campus support</h2>
+  <p class="lead">Aid is decided after the merit list. Tick "Scholarship" on the form and we will assess you automatically.</p>
+  <div class="cards">
+    <article><h3>Merit scholarship</h3><p>For applicants in the top ranks of each programme.</p></article>
+    <article><h3>Need-based support</h3><p>For families who qualify under the income bands on the form.</p></article>
+    <article><h3>Sports quota</h3><p>Reserved seats for state and national-level players.</p></article>
+    <article><h3>Hostel and transport</h3><p>Separate hostel blocks and bus routes across the city.</p></article>
+  </div>
+</section>
+
+<section id="status">
+  <h2>Track your application</h2>
+  <p class="lead">Enter your Application ID and date of birth to see where you stand.</p>
+  <div class="trk">
+    <form class="inline" id="trk-form" action="#">
+      <label>Application ID<input type="text" id="trk-id" placeholder="CA2027-0001" required></label>
+      <label>Date of birth<input type="date" id="trk-dob"></label>
+      <button class="btn" type="submit">Show status</button>
+    </form>
+    <ol class="line" id="trk-line"><li class="done">Submitted<li class="done">Documents checked<li class="now">Under review<li>Merit list<li>Verification<li>Seat confirmed</ol>
+    <p id="trk-msg" role="status"></p>
+  </div>
+</section>
+
+<section id="admin">
+  <h2>Admin dashboard</h2>
+  <p class="lead">Approve, reject or delete applications. New applications from the form appear here instantly.</p>
+  <div class="dash">
+    <div class="donut-box"><div class="donut" id="donut"></div>
+      <div class="key"><span><i style="background:var(--teal)"></i>Approved</span><span><i style="background:var(--amber)"></i>Pending</span><span><i style="background:var(--rose)"></i>Rejected</span></div></div>
+    <div class="seats"><b>Seats filled by department</b>
+      <div class="seat">Engineering<span><u style="width:82%;background:var(--blue)"></u></span>82%</div>
+      <div class="seat">Science<span><u style="width:64%;background:var(--teal)"></u></span>64%</div>
+      <div class="seat">Management<span><u style="width:71%;background:var(--rose)"></u></span>71%</div>
+      <div class="seat">Computer Apps<span><u style="width:90%;background:var(--sky)"></u></span>90%</div>
+      <div class="seat">Health Sciences<span><u style="width:55%;background:var(--amber)"></u></span>55%</div>
+      <div class="seat">Arts and Media<span><u style="width:48%;background:var(--plum)"></u></span>48%</div>
+    </div>
+  </div>
+  <div class="wrap"><table>
+    <thead><tr><th>Application</th><th>Applicant</th><th>First choice</th><th>Marks</th><th>Category</th><th>Status</th><th>Action</th></tr></thead>
+    <tbody id="admin-body"></tbody></table></div>
+</section>
+
+<section id="faq">
+  <h2>Questions applicants ask</h2>
+  <p class="lead">Can't find your answer? Call the helpline below.</p>
+  <details><summary>Can I apply to more than one programme?</summary><p>You can list two choices in one application. The merit list considers your first choice before your second.</p></details>
+  <details><summary>What if my final results are not out yet?</summary><p>Apply with your latest marksheet and upload the final one before document verification.</p></details>
+  <details><summary>Can I withdraw after confirming my seat?</summary><p>Yes. Contact the admission office before 30 June so the seat can go to the next applicant.</p></details>
+  <details><summary>How do I correct a mistake in my application?</summary><p>Send your Application ID and the correction to the admission office before the last date.</p></details>
+</section>
+
+<section id="contact">
+  <h2>Contact the admission office</h2>
+  <div class="contact" style="margin-top:20px">
+    <div><b>Visit</b><br>Block A, College Campus<br>Monday to Saturday, 9 am to 5 pm</div>
+    <div><b>Call</b><br>1800-123-4567</div>
+    <div><b>Write</b><br>admissions@college.edu</div>
+  </div>
+</section>
+</main>
+
+<svg class="fsky" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><use href="#campus-art" width="1200" height="320"/></svg>
+<footer>
+  <p>Created by: Hasini.M | First Year CSE(AI)</p>
+  <p>Contact: admissions@college.edu</p>
+</footer>
+<div id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
